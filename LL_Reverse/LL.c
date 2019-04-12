@@ -11,11 +11,11 @@
 #include <stdlib.h>
 
 
-
 struct node{
     int data;
     struct node* next;
 };
+
 
 
 
@@ -158,9 +158,6 @@ struct node* deleteAtPosition(struct node *head, int pos){
     return head;
     
 }
-
-
-
 
 
 

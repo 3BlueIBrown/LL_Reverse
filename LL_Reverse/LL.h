@@ -12,7 +12,6 @@
 
 #include <stdio.h>
 
-
 struct node* insertAtBeginning(struct node *head, int data);
 struct node* insertAtEnd(struct node *head, int data);
 struct node* insertAtPosition(struct node *head, int pos, int data);
