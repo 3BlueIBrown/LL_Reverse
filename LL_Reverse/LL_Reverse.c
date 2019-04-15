@@ -17,7 +17,7 @@ struct node{
     struct node* next;
 };
 
-//extern struct node *head;
+//extern struct node *head; ALREADY DEFINED IN .H FILE
 
 
 

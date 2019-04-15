@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E34703B2260F31900B30290 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E34703A2260F31900B30290 /* main.c */; };
 		2E3470432260F32900B30290 /* LL_Reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E3470422260F32900B30290 /* LL_Reverse.c */; };
-		2E3470462260F38B00B30290 /* LL.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E3470452260F38B00B30290 /* LL.c */; };
+		2E347049226102BA00B30290 /* LL.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E347048226102BA00B30290 /* LL.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		2E34703A2260F31900B30290 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		2E3470412260F32900B30290 /* LL_Reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LL_Reverse.h; sourceTree = "<group>"; };
 		2E3470422260F32900B30290 /* LL_Reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LL_Reverse.c; sourceTree = "<group>"; };
-		2E3470442260F38B00B30290 /* LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL.h; sourceTree = "<group>"; };
-		2E3470452260F38B00B30290 /* LL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LL.c; sourceTree = "<group>"; };
+		2E347047226102BA00B30290 /* LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LL.h; path = ../../LL/LL/LL.h; sourceTree = "<group>"; };
+		2E347048226102BA00B30290 /* LL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = LL.c; path = ../../LL/LL/LL.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				2E34703A2260F31900B30290 /* main.c */,
-				2E3470452260F38B00B30290 /* LL.c */,
-				2E3470442260F38B00B30290 /* LL.h */,
+				2E347048226102BA00B30290 /* LL.c */,
+				2E347047226102BA00B30290 /* LL.h */,
 				2E3470412260F32900B30290 /* LL_Reverse.h */,
 				2E3470422260F32900B30290 /* LL_Reverse.c */,
 			);
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E3470432260F32900B30290 /* LL_Reverse.c in Sources */,
-				2E3470462260F38B00B30290 /* LL.c in Sources */,
+				2E347049226102BA00B30290 /* LL.c in Sources */,
 				2E34703B2260F31900B30290 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
